@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    transition: background-color 1s ease; /* Transição suave para a mudança de cor */
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
